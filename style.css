@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:ital,wght@0,300;1,300;1,400;1,500&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+
+#contenedor-listas{
+    height: 488px;
+}
+
+.li-mostrar-con-cheek{
+    list-style:none;
+    text-decoration: line-through;
+}
+.li-mostrar-sin-cheek{
+    list-style: none;
+}
+
+.formulario{
+    display: flex; 
+    flex-direction: row; 
+    gap: 8px;
+}
+
+.contenedor-boton{  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+
+.ver_ocultar{
+    display: none;
+}
+#contenedor-listas > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.list-option{
+    cursor: pointer;
+    
+}
+
+.list-option.active {
+    border-bottom: 4px solid rgb(68, 88, 222);
+}
+
+.contenedor-lista{
+    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#lista-Completed{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 400px;
+}
+
+#boton-eliminar{
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    width: 400px;
+    justify-content: right;
+}
+
+
+#lista-Active{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 400px;
+}
+
+#lista-All{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 400px;
+}
+
+#div-menu1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+
+}
+.div-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 70px;
+    border-bottom: 2px solid rgb(96, 93, 93);
+    width: 400px;
+}
+
+.contenedor-lista.active{
+    display: flex;
+}
+
+#div-delete{
+    display:flex; 
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#image-delete {
+    align-items: right;
+    justify-content: right;
+    gap: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+#textotodo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
